@@ -1,10 +1,16 @@
-public class Ternary {
-    public static void main(String[] args) {
-           int num= 40, num2=20, Max;
-           Max=(num>num2) ? num:num2;
-           System.out.println(Max);
-           
-    }
+class Ternary{
+
+public static void main(String [] args){
+
+    int num1=12,num2=29,Max;
+      Max=(num1<num2) ? num1 : num2;
+     System.out.print(Max);
+
+
+}
+
+
+
 
 
 

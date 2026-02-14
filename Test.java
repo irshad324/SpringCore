@@ -1,36 +1,12 @@
-public class Test {
-    
+class Test{
 
+int n;
+public static void main(String [] args){
 
+Test obj=new Test();
+System.out.print(obj.n);
 
-    public static void main(String[] args) {
-        int marks = 200;
-
-        if (marks >= 300) {
-        
-
-            if (marks >= 75) {
-                System.out.println("Distinction");
-            } else {
-                System.out.println("Pass");
-            }
-        } else {
-            System.out.println("Fail");
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
